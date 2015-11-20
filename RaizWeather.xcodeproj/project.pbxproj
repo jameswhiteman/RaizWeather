@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7860976AA63BA731C762DC3A /* libPods-RaizWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEF0B4B1D9C9DFC8B582B2D /* libPods-RaizWeather.a */; };
+		C4AE487C1BFE6B9700370AAF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AE487B1BFE6B9600370AAF /* CoreLocation.framework */; };
+		C4AE487F1BFE8E6100370AAF /* RWForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AE487E1BFE8E6100370AAF /* RWForecast.m */; };
+		C4AE48831BFE9B5700370AAF /* ic_wb_sunny_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AE48801BFE9B5700370AAF /* ic_wb_sunny_2x.png */; };
+		C4AE48841BFE9B5700370AAF /* ic_wb_sunny_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AE48811BFE9B5700370AAF /* ic_wb_sunny_3x.png */; };
+		C4AE48851BFE9B5700370AAF /* ic_wb_sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = C4AE48821BFE9B5700370AAF /* ic_wb_sunny.png */; };
+		C4E4E53A1BFE54F20005BB09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4E5391BFE54F20005BB09 /* main.m */; };
+		C4E4E53D1BFE54F20005BB09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4E53C1BFE54F20005BB09 /* AppDelegate.m */; };
+		C4E4E5401BFE54F20005BB09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E4E53F1BFE54F20005BB09 /* ViewController.m */; };
+		C4E4E5431BFE54F20005BB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E4E5411BFE54F20005BB09 /* Main.storyboard */; };
+		C4E4E5451BFE54F20005BB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E4E5441BFE54F20005BB09 /* Assets.xcassets */; };
+		C4E4E5481BFE54F20005BB09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E4E5461BFE54F20005BB09 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFEF0B4B1D9C9DFC8B582B2D /* libPods-RaizWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RaizWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AE487B1BFE6B9600370AAF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C4AE487D1BFE8E6100370AAF /* RWForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWForecast.h; sourceTree = "<group>"; };
+		C4AE487E1BFE8E6100370AAF /* RWForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWForecast.m; sourceTree = "<group>"; };
+		C4AE48801BFE9B5700370AAF /* ic_wb_sunny_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_wb_sunny_2x.png; path = ../../../../../Desktop/ic_wb_sunny_black_24dp/ios/ic_wb_sunny.imageset/ic_wb_sunny_2x.png; sourceTree = "<group>"; };
+		C4AE48811BFE9B5700370AAF /* ic_wb_sunny_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_wb_sunny_3x.png; path = ../../../../../Desktop/ic_wb_sunny_black_24dp/ios/ic_wb_sunny.imageset/ic_wb_sunny_3x.png; sourceTree = "<group>"; };
+		C4AE48821BFE9B5700370AAF /* ic_wb_sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_wb_sunny.png; path = ../../../../../Desktop/ic_wb_sunny_black_24dp/ios/ic_wb_sunny.imageset/ic_wb_sunny.png; sourceTree = "<group>"; };
+		C4E4E5351BFE54F20005BB09 /* RaizWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaizWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E4E5391BFE54F20005BB09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4E4E53B1BFE54F20005BB09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4E4E53C1BFE54F20005BB09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4E4E53E1BFE54F20005BB09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4E4E53F1BFE54F20005BB09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4E4E5421BFE54F20005BB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E4E5441BFE54F20005BB09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4E4E5471BFE54F20005BB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4E4E5491BFE54F20005BB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBF7F6304E0B172FF7D26FE /* Pods-RaizWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaizWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaizWeather/Pods-RaizWeather.release.xcconfig"; sourceTree = "<group>"; };
+		F8AF053BB22A3DB1A7082E16 /* Pods-RaizWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaizWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaizWeather/Pods-RaizWeather.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E4E5321BFE54F20005BB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AE487C1BFE6B9700370AAF /* CoreLocation.framework in Frameworks */,
+				7860976AA63BA731C762DC3A /* libPods-RaizWeather.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0060194A2C182039DE3886A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8AF053BB22A3DB1A7082E16 /* Pods-RaizWeather.debug.xcconfig */,
+				CCBF7F6304E0B172FF7D26FE /* Pods-RaizWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8324B66E4643CEC29A75217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4AE487B1BFE6B9600370AAF /* CoreLocation.framework */,
+				AFEF0B4B1D9C9DFC8B582B2D /* libPods-RaizWeather.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4AE48861BFE9B5A00370AAF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C4AE48801BFE9B5700370AAF /* ic_wb_sunny_2x.png */,
+				C4AE48811BFE9B5700370AAF /* ic_wb_sunny_3x.png */,
+				C4AE48821BFE9B5700370AAF /* ic_wb_sunny.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C4E4E52C1BFE54F20005BB09 = {
+			isa = PBXGroup;
+			children = (
+				C4E4E5371BFE54F20005BB09 /* RaizWeather */,
+				C4E4E5361BFE54F20005BB09 /* Products */,
+				0060194A2C182039DE3886A3 /* Pods */,
+				B8324B66E4643CEC29A75217 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E4E5361BFE54F20005BB09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4E5351BFE54F20005BB09 /* RaizWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E4E5371BFE54F20005BB09 /* RaizWeather */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4E5511BFE56BE0005BB09 /* Classes */,
+				C4E4E54F1BFE56970005BB09 /* Resources */,
+			);
+			path = RaizWeather;
+			sourceTree = "<group>";
+		};
+		C4E4E5381BFE54F20005BB09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4E5441BFE54F20005BB09 /* Assets.xcassets */,
+				C4E4E5491BFE54F20005BB09 /* Info.plist */,
+				C4E4E5391BFE54F20005BB09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4E4E54F1BFE56970005BB09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4AE48861BFE9B5A00370AAF /* Images */,
+				C4E4E5501BFE56A60005BB09 /* Layout */,
+				C4E4E5381BFE54F20005BB09 /* Supporting Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4E4E5501BFE56A60005BB09 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4E5411BFE54F20005BB09 /* Main.storyboard */,
+				C4E4E5461BFE54F20005BB09 /* LaunchScreen.storyboard */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		C4E4E5511BFE56BE0005BB09 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4E53B1BFE54F20005BB09 /* AppDelegate.h */,
+				C4E4E53C1BFE54F20005BB09 /* AppDelegate.m */,
+				C4E4E53E1BFE54F20005BB09 /* ViewController.h */,
+				C4E4E53F1BFE54F20005BB09 /* ViewController.m */,
+				C4AE487D1BFE8E6100370AAF /* RWForecast.h */,
+				C4AE487E1BFE8E6100370AAF /* RWForecast.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E4E5341BFE54F20005BB09 /* RaizWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E4E54C1BFE54F20005BB09 /* Build configuration list for PBXNativeTarget "RaizWeather" */;
+			buildPhases = (
+				09A15F1C62BB0C0EF7BBB64B /* Check Pods Manifest.lock */,
+				C4E4E5311BFE54F20005BB09 /* Sources */,
+				C4E4E5321BFE54F20005BB09 /* Frameworks */,
+				C4E4E5331BFE54F20005BB09 /* Resources */,
+				5DA063E6FB903ADEF2A944B8 /* Embed Pods Frameworks */,
+				81C48D30999156F68E6B48AD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaizWeather;
+			productName = RaizWeather;
+			productReference = C4E4E5351BFE54F20005BB09 /* RaizWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E4E52D1BFE54F20005BB09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Raizlabs;
+				TargetAttributes = {
+					C4E4E5341BFE54F20005BB09 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C4E4E5301BFE54F20005BB09 /* Build configuration list for PBXProject "RaizWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4E4E52C1BFE54F20005BB09;
+			productRefGroup = C4E4E5361BFE54F20005BB09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E4E5341BFE54F20005BB09 /* RaizWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E4E5331BFE54F20005BB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E4E5481BFE54F20005BB09 /* LaunchScreen.storyboard in Resources */,
+				C4AE48841BFE9B5700370AAF /* ic_wb_sunny_3x.png in Resources */,
+				C4E4E5451BFE54F20005BB09 /* Assets.xcassets in Resources */,
+				C4AE48831BFE9B5700370AAF /* ic_wb_sunny_2x.png in Resources */,
+				C4AE48851BFE9B5700370AAF /* ic_wb_sunny.png in Resources */,
+				C4E4E5431BFE54F20005BB09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A15F1C62BB0C0EF7BBB64B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DA063E6FB903ADEF2A944B8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaizWeather/Pods-RaizWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C48D30999156F68E6B48AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaizWeather/Pods-RaizWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E4E5311BFE54F20005BB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E4E5401BFE54F20005BB09 /* ViewController.m in Sources */,
+				C4E4E53D1BFE54F20005BB09 /* AppDelegate.m in Sources */,
+				C4E4E53A1BFE54F20005BB09 /* main.m in Sources */,
+				C4AE487F1BFE8E6100370AAF /* RWForecast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4E4E5411BFE54F20005BB09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E4E5421BFE54F20005BB09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E4E5461BFE54F20005BB09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E4E5471BFE54F20005BB09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E4E54A1BFE54F20005BB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4E4E54B1BFE54F20005BB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E4E54D1BFE54F20005BB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8AF053BB22A3DB1A7082E16 /* Pods-RaizWeather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaizWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raizlabs.RaizWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E4E54E1BFE54F20005BB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBF7F6304E0B172FF7D26FE /* Pods-RaizWeather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaizWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raizlabs.RaizWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E4E5301BFE54F20005BB09 /* Build configuration list for PBXProject "RaizWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E4E54A1BFE54F20005BB09 /* Debug */,
+				C4E4E54B1BFE54F20005BB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E4E54C1BFE54F20005BB09 /* Build configuration list for PBXNativeTarget "RaizWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E4E54D1BFE54F20005BB09 /* Debug */,
+				C4E4E54E1BFE54F20005BB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E4E52D1BFE54F20005BB09 /* Project object */;
+}
